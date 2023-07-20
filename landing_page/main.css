@@ -1,0 +1,55 @@
+/* PALETA DE COLORES DYNAMIS SOLUTIONS
+
+1. #f54703 -> NARANJA PRINCIPAL
+2. #ff7518 -> NARANJA SECUNDARIO
+3. #1b1b1b -> NEGRO BRAND
+4. #2f2f2f -> GRIS OSCURO
+5. #464545 -> GRIS CLARO
+
+*/
+
+
+/* ORGANIZACION ARCHIVO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+    color: #f54703;
+}
+
+img {
+    height: 40vh;
+    width: 40vw;
+}
+
+/* INICIO ESTILOS CSS */
+
+.header-home-page{
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-video{
+    height: 60vh;
+    width: 100vw;
+}
+
+.contactanos-formulario {
+    /* border: 1px red solid; */
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

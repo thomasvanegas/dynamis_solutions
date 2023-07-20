@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamis Solutions | Software Solutions For A Dynamic World | By Thomas Vanegas</title>
+    <link rel="stylesheet" href="./main.css">
+
+    <link 
+    rel="icon" 
+    href="../static/img/DSPoppins.png"
+    type="image/x-icon" />
+
+<body>
+
+    <nav class="nav-bar" id="home">
+
+        <a href="#home">Home</a>
+        <a href="#quienes-somos">¿Quiénes Somos?</a>
+        <!--
+        <a href="">Nuestros Servicios</a>
+        <a href="">Nuestros Proyectos</a>
+        -->
+        <a href="#contactanos">Contáctanos</a>
+
+        <label for="dark-mode">Dark Mode
+            <input type="checkbox" name="" id="dark-mode">
+        </label>
+    
+        <a href="">Idioma</a>
+    </nav>
+
+    <!-- SALTO Y LINEA SEPARADORA -->
+    <br /> <hr />
+
+    <header class="header-home-page" id="home">
+
+        <a href="#home"><h1 >Dynamis Solutions</h1></a>
+
+        <h2>A Dynamic World, Requires <a href="#home">Dynamis Solutions</a></h2>
+
+    </header>
+
+    <br />
+
+    <div >
+        <video class="header-video" autoplay loop preload="auto" controls>
+            <source src="../static/videos/particulas_figuras_dynamis.mp4" type="video/mp4">
+            <source src="../static/videos/particulas_figuras_dynamis.webm" type="video/webm">
+            Lo sentimos, tu navegador aún no soporta este tipo de formato de videos, te recomendamos a usar
+            un navegador actualizado, gracias.
+        </video>
+    </div>
+
+    <!-- SALTO Y LINEA SEPARADORA -->
+    <br /> <hr />
+
+    <main>
+
+        <section id="quienes-somos">
+
+            <h2><a href="#quienes-somos">¿Quiénes Somos?</a></h2>
+
+            <br />
+
+            <img src="./img/Propuesta4.jpg" alt="Imagen que está representando chispas y fuego">
+
+            <br />
+            <br />
+
+            <p>
+                <a href="#home">Dynamis Solutions</a> es una empresa desarrolladora de soluciones a partir
+                de Software, usando como herramienta principal en análisis de datos y el desarrollo web, y así, 
+                dar respuesta a las diversas, complejas y dinámicas necesidades de las empresas y los clientes.
+            </p>
+
+        </section>
+
+        <!-- SALTO Y LINEA SEPARADORA -->
+        <br /> <hr />
+
+        <section>
+            <h2><a href="#contactanos" id="contactanos">Contáctanos</a></h2>
+
+            <br />
+
+            <img src="./img/Propuesta2.jpg" alt="Imagen que está representando chispas y fuego">
+
+            <br />
+            <br />
+
+            <form action="" class="contactanos-formulario">
+                <label for="nombre-cliente">Nombre</label>
+                <input type="text" name="nombre_cliente" id="nombre-cliente"
+                placeholder="Ingrese su nombre aquí..." required>
+
+                <label for="email-cliente">Ingrese su correo electrónico o email</label>
+                <input type="email" name="email_cliente" id="email-cliente"
+                placeholder="Ingrese su correo aquí... ejm: nombre@mail.com" required>
+
+                <label for="telefono-cliente">Ingrese su número de telefono</label>
+                <input type="number" name="telefono_cliente" id="telefono-cliente"
+                placeholder="ingrese su número de telefono aquí" required minlength="10" maxlength="10">
+
+                <input type="submit" value="ENVIAR">
+            </form>
+        </section>
+
+    </main>
+
+    <!-- SALTO Y LINEA SEPARADORA -->
+    <br /> <hr /> <br />
+
+    <footer class="footer-landing-page">
+
+        <a href="#home"><h3>Dynamis Solutions</h3></a>
+
+        <p>Todos los derechos reservados 2023</p>
+
+    </footer>
+
+</body>
+</html>
